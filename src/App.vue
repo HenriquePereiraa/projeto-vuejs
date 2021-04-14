@@ -3,6 +3,7 @@
     <Banner/>
     <Sobre/>
     <Contato/>
+    <Footer/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Banner from './components/Banner';
 import Sobre from './components/Sobre';
 import Contato from './components/Contato';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Banner,
     Sobre,
     Contato,
+    Footer
   }
 }
 </script>

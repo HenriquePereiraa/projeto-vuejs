@@ -17,7 +17,6 @@
 </template>
 
 <style scoped>
-
     /* BODY */
     #Contato {
         height: 931px;
@@ -26,15 +25,13 @@
         background-repeat: no-repeat;
         background-position: center bottom;
     }
-
     /* TITULO */
     #Contato > h1 {
         position: relative;
         top: 75px;
-        left: 50px;  
+        padding-left: 50px;  
         color: #349075;
     }
-
     /* MAIN AREA */
     #main_area {
         position: relative;
@@ -45,7 +42,6 @@
         flex-direction: column;
         align-items: center;
     }
-
     /* MAIN AREA > FORMULÁRIO */
     #main_area > form {
         width: 600px;
@@ -85,4 +81,19 @@
         padding-left: 5px;
         font-size: 16px;
     }
+    @media screen and (max-width:768px){
+        #main_area > form{
+        width: 90%;
+        }
+        #main_area > form input{
+        width: 90%;
+        }
+        #main_area > form textarea{
+            width: 90%;
+        }
+        #main_area > div{
+           width: 90%;
+        }
+    }
+    
 </style>
